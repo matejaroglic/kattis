@@ -25,7 +25,6 @@ def podobnost(niz, stopnja):
 # če se kakšen podniz ne pojavi še kje v nizu znova kličemo funkcijo
 # podobnost s stopnjo ena manj
             return podobnost(niz, stopnja - 1)
-# če se zanka for izvede za vse podnize vrnemo stopnjo
     return stopnja
 
 
